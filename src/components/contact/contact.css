@@ -1,0 +1,124 @@
+.section-contact {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    height: fit-content;
+    z-index: 2;
+}
+
+.contact-head {
+    font-size: 2rem;
+}
+
+.contact {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    height: fit-content;
+    position: absolute;
+}
+
+.form {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.in-box {
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+    font-size: 1rem;
+    padding: 1rem;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.contact-person {
+    width: 50%;
+}
+img {
+    width: 100%;
+}
+
+.in-box::placeholder{
+    color: #1A237E;
+}
+
+.in-box:focus{
+    outline: none;
+}
+
+.form-submit {
+    width: 97%;
+    border: none;
+    font: 16px Arial;
+    display: inline-block;
+    padding: 1em 2em;
+    text-align: center;
+    color: #1A237E;
+    background: tomato; 
+    background: linear-gradient(to left, tomato 50%, #1A237E 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.form-submit:hover{
+    background-position: left ;
+    color: tomato;
+    cursor: pointer;
+}
+
+input, select, textarea{
+    color: #ff0000;
+}
+
+textarea:focus, input:focus {
+    color: #ff0000;
+}
+
+@media (max-width: 800px) {
+    .form-submit {
+        width: 100%;
+    }
+  }
+
+  
+  @media (max-width: 620px) {
+    .form-submit{
+        width: 104%;
+    }
+    .contact-person {
+        width: 70%;
+    }
+  }
+
+
+  @media (max-width: 550px) {
+    .form-submit{
+        width: 105%;
+    }
+    .contact-head{
+        font-size: 40px;
+    }
+  }
+
+  @media (max-width: 420px) {
+    .form-submit{
+        width: 110%;
+    }
+    .contact-head{
+        font-size: 20px;
+    }
+  }
+
+  @media (max-width: 300px) {
+    .form-submit{
+        width: 120%;
+    }
+  }

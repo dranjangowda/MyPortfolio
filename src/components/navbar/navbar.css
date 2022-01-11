@@ -1,0 +1,122 @@
+.Navbar {
+    height: fit-content;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    box-shadow: 0 8px 8px -4px rgba(52, 58, 139, 0.5);
+    /* box-shadow: 0 8px 8px -4px lightblue; */
+    animation: 1s ease-out 0s 1 slideInNavbarFromTop;
+    z-index: 3;
+}
+
+.active {
+    color: rgb(253, 0, 0);
+    font-weight: 700 !important;
+}
+
+.NavRow {
+    display: flex;
+    margin-right: 70px;
+}
+
+.nav-cont {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 0.9rem;
+    font: 12px Arial;
+    display: inline-block;
+    padding: 1em 2em;
+    text-align: center;
+    background: rgba(100, 100, 100, 0.5); 
+    background: linear-gradient(to top, rgba(100, 100, 100, 0)  50%, rgb(253, 0, 0) 50%) bottom;
+    background-size: 100% 200%;
+    transition: .1s ease-out;
+    cursor: pointer;
+}
+
+.nav-cont > p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.nav-cont:hover{
+    background-position: top;
+    color: #0f1338 ;
+}
+
+.theme-cont {
+    flex-grow: 1;
+}
+
+
+.theme-btn {
+    width: fit-content;
+    height: fit-content;
+    float: right;
+    padding: 0.6rem;
+    margin-top: 10px;
+    margin-right: 20px;
+    right: 100%;
+    border-radius: 50%;
+    transition: "all 1s ease-in-out";
+    cursor: pointer;
+} 
+
+.theme-btn:hover {
+    /* background-color: tomato !important; */
+    color: rgb(253, 0, 0);
+}
+.sidebar {
+    display: none;
+}
+
+.small {
+    display: none;
+}
+
+.dis-able {
+    position: absolute;
+    z-index: 3;
+    padding: 10px;
+}
+
+.onlySmallScreen{
+    display: none;
+}
+
+@keyframes slideInNavbarFromTop {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  @media only screen and (max-width: 490px) {
+      .onlySmallScreen{
+          display: block;
+          padding: 10px;
+      }
+      .NavRow {
+          display: none;
+      }
+      .theme-btn {
+        margin-top: 3px;
+        margin-bottom: 3px;
+        margin: auto;
+      }
+  }
+
+
+  @media only screen and (max-width: 530px) {
+      .nav-cont{
+          font-size: 0.7rem;
+      }
+  }
+

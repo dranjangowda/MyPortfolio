@@ -1,0 +1,60 @@
+.loader {
+    margin: auto;
+    width: fit-content;
+    display: flex;
+    height: 100vh;
+}
+
+.loader > div {
+    width: 12px;
+    height: 5px;
+    margin: auto 1px auto 1px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: loader 0.8s ease-in-out infinite;
+}
+
+.line1 {
+    background-color: #ff0000;
+    animation-delay: -0.1s !important;
+  }
+  .line2 {
+    background-color: #ffa500;
+    animation-delay: -0.2s !important;
+  }
+  .line3 {
+    background-color: #ffff00;
+    animation-delay: -0.3s !important;
+  }
+  .line4 {
+    background-color: #008000;
+    animation-delay: -0.4s !important;
+  }
+  .line5 {
+    background-color: #0000ff;
+    animation-delay: -0.5s !important;
+  }
+  .line6 {
+    background-color: #4b0082;
+    animation-delay: -0.6s !important;
+  }
+  .line7 {
+    background-color: #ee82ee;
+    animation-delay: -0.7s !important;
+  }
+  
+
+@keyframes loader {
+    0% {
+      transform: scaleY(1);
+    }
+    50% {
+      transform: scaleY(10);
+    }
+    100% {
+      transform: scaleY(1);
+    }
+  }

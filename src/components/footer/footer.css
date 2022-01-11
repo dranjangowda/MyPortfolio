@@ -1,0 +1,33 @@
+.section-footer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.credit {
+    width: fit-content;
+    margin: auto;
+    padding: 20px;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+@media (max-width: 420px) {
+    .credit {
+        margin-top: 15px;
+        padding: 20px;
+        padding-top: 35px;
+    }
+    .footer {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+  }
