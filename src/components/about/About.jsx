@@ -15,7 +15,7 @@ export const About = () => {
             </div>
             <div className="main-img aboutClass">
                 <div className="profile">
-                    <img src={Ranjan} alt="Ranjan's profile picture" />
+                    <img src={Ranjan} alt="Ranjan's profile" />
                 </div>
             </div>
         </div>
