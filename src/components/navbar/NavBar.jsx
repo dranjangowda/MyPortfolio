@@ -15,7 +15,7 @@ export const Navbar = () => {
         <div className="Navbar"  style={ currentTheme === "light" ? Themes.light.navbar : Themes.dark.navbar }>
             <div className="onlySmallScreen">RANJAN</div>
             <div className="NavRow">
-                <img src={Trademark} className='Trademark' />
+                <img src={Trademark} className='Trademark' alt="trademark"/>
                 {
                     navCont.map((ele) => {
                         return (

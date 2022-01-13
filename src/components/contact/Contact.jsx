@@ -1,6 +1,5 @@
 import "./contact.css";
-import { useContext } from 'react';
-;
+
 
 export const Contact = () => {
     return (
