@@ -14,7 +14,7 @@ export const About = () => {
                 <p className="about-data">I started learning coding as a hobby and just displaying a simple "Hello world" message on screen seemed exciting. Ever since I started learning web development, I fell in love with it. I enjoy making interactive and user-friendly websites. Looking forward to being an integral part of an organization where the learning curve is great and hard work is appreciated. When I am not coding I love to read novels and solving puzzles.</p>
             </div>
             <div className="main-img aboutClass">
-                <div className="image">
+                <div className="profilePicture">
                     <img src={Ranjan} alt="Ranjan's profile picture" />
                 </div>
             </div>
