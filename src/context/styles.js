@@ -4,7 +4,7 @@ export const Themes = {
             "color": "#FBFFE2",
             // "background": "linear-gradient(147deg, #000000 0%, #04619f 74%)",
             // "background": "#150050",
-            "background": "#00062b",
+            "background": "black",
         },
         // "contact": {
         //     "color": "#FBFFE2",
@@ -20,7 +20,7 @@ export const Themes = {
             "color": "#FBFFE2",
             // "backgroundColor": "#150050",
             // "background": "linear-gradient(147deg, #000000 0%, #04619f 74%)",
-            "background": "#000B49"
+            "background": "black"
         },
         "contact": {
             "color": "#FBFFE2",

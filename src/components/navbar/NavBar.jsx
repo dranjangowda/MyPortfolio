@@ -3,6 +3,7 @@ import { useContext } from 'react';
 import { ThemeContext } from '../../context/ThemeContext';
 import { Link } from 'react-scroll';
 import { FaMoon, FaSun } from "react-icons/fa";
+import Trademark from "../../assets/trademark.png"
 
 export const Navbar = () => {
     const { Themes, currentTheme, handleChangeTheme } = useContext(ThemeContext);
@@ -12,8 +13,9 @@ export const Navbar = () => {
     return (
         <>
         <div className="Navbar"  style={ currentTheme === "light" ? Themes.light.navbar : Themes.dark.navbar }>
-            <div className="onlySmallScreen">HARSHITH</div>
+            <div className="onlySmallScreen">RANJAN</div>
             <div className="NavRow">
+                <img src={Trademark} className='Trademark' />
                 {
                     navCont.map((ele) => {
                         return (

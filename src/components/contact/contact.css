@@ -7,6 +7,7 @@
     min-height: 100vh;
     height: fit-content;
     z-index: 2;
+   
 }
 
 .contact-head {
@@ -19,6 +20,7 @@
     margin: auto;
     height: fit-content;
     position: absolute;
+    
 }
 
 .form {
@@ -60,8 +62,8 @@ img {
     padding: 1em 2em;
     text-align: center;
     color: #1A237E;
-    background: tomato; 
-    background: linear-gradient(to left, tomato 50%, #1A237E 50%) right;
+    background: rgb(246,171,59); 
+    background: linear-gradient(to left, rgb(246,171,59) 50%, rgb(95, 57, 0) 50%) right;
     background-size: 200%;
     transition: .5s ease-out;
     margin: auto;
@@ -70,16 +72,16 @@ img {
 
 .form-submit:hover{
     background-position: left ;
-    color: tomato;
+    color: white;
     cursor: pointer;
 }
 
 input, select, textarea{
-    color: #ff0000;
+    color: black;
 }
 
 textarea:focus, input:focus {
-    color: #ff0000;
+    color: black;
 }
 
 @media (max-width: 800px) {

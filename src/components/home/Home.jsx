@@ -1,7 +1,7 @@
 import "./home.css";
 import { useContext } from 'react';
 import { ThemeContext } from '../../context/ThemeContext';
-import hero from "../../assets/hero.png";
+import hero from "../../assets/hero.svg";
 
 // function mouseover() {
 //     document.getElementById("gfg").style.color = "red";

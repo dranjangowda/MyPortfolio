@@ -7,14 +7,21 @@
     position: fixed;
     z-index: 1;
     top: 0px;
-    box-shadow: 0 8px 8px -4px rgba(52, 58, 139, 0.5);
+    box-shadow: 0 8px 8px -4px rgba(225, 226, 236, 0.5);
     /* box-shadow: 0 8px 8px -4px lightblue; */
     animation: 1s ease-out 0s 1 slideInNavbarFromTop;
     z-index: 3;
+    background-color: black;
 }
-
+.Trademark{
+    border-radius: 30px;
+    height: 60px;
+    width: 60px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
 .active {
-    color: rgb(253, 0, 0);
+    color: rgb(161, 131, 131);
     font-weight: 700 !important;
 }
 
@@ -24,6 +31,7 @@
 }
 
 .nav-cont {
+    margin-left: 150px;
     flex-grow: 1;
     text-align: center;
     font-size: 0.9rem;
@@ -31,8 +39,8 @@
     display: inline-block;
     padding: 1em 2em;
     text-align: center;
-    background: rgba(100, 100, 100, 0.5); 
-    background: linear-gradient(to top, rgba(100, 100, 100, 0)  50%, rgb(253, 0, 0) 50%) bottom;
+    background: rgba(95, 95, 95, 0.5); 
+    background: linear-gradient(to top, rgba(0, 0, 0, 0)  50%, rgb(51, 50, 50) 50%) bottom;
     background-size: 100% 200%;
     transition: .1s ease-out;
     cursor: pointer;
@@ -42,11 +50,12 @@
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 14px;
+    color:rgb(246,171,59);
 }
 
 .nav-cont:hover{
     background-position: top;
-    color: #0f1338 ;
+    color: #000000 ;
 }
 
 .theme-cont {
