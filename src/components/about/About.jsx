@@ -1,5 +1,5 @@
 import "./about.css";
-import Ranjan from "../../assets/Ranjan.jpg";
+import Ranjan from "../../assets/784.jpg";
 import { useContext } from 'react';
 import { ThemeContext } from '../../context/ThemeContext';
 
