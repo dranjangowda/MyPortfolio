@@ -40,7 +40,7 @@ export const Themes = {
     },
     "light": {
         "navbar": {
-            "color": "#160040",
+            "color": "white",
             // "backgroundColor": "#81D4FA",
             // "background": "linear-gradient(147deg, #4FC3F7 0%, #A8ECE7 74%)",
             // "background": "#4FC3F7",
@@ -51,31 +51,31 @@ export const Themes = {
         //     "backgroundColor": "#B2F9FC",
         // },
         "themebtn": {
-            "fontColor": "#FBFFE2",
+            "fontColor": "white",
             // "backgroundColor": "#4FC3F7",
             "background": "#02aefd"
         },
         "home": {
-            "color": "#150050",
+            "color": "white",
             // "backgroundColor": "#A8ECE7",
             // "background": "linear-gradient(147deg, #4FC3F7 0%, #A8ECE7 74%)",
             "background": "#4FC3F7",
             // "background": "linear-gradient(#4FC3F7, #A8ECE7, #E1F5FE, #B2F9FC)",
         },
         "contact": {
-            "color": "#150050",
+            "color": "white",
             // "backgroundColor": "#A8ECE7",
             "background": "linear-gradient(#4FC3F7, #A8ECE7, #E1F5FE, #B2F9FC)",
         },
         "resume": {
-            "color": "#150050",
+            "color": "white",
             // "background": "linear-gradient(#160040, #1C0C5B, #3D2C8D, #916BBF)",
         },
         "profilepic": {
             "background": "radial-gradient(#71DFE7, #71EFE7)",
         },
         "pro": {
-            "color": "#150050",
+            "color": "white",
         }
     }
 } 
