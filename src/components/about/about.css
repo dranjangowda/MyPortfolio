@@ -42,19 +42,15 @@
   font-weight: 500;
 }
 
-.profile{
-    width: 50%;
-    border-radius: 50%;
-    margin: auto;
-    animation: 1s ease-out 0s 1 slideInNameFromRight;
-}
 
 .profile > img {
     margin: auto;
-    width: 80%;
+    width: 90%;
     border-radius: 50%; 
     max-height: 300px;
-}
+    margin-top: 25px;
+    margin-left: 15px;
+}  
 
 
 @keyframes slideInNameFromLeft {
