@@ -3,7 +3,6 @@ import { useContext } from 'react';
 import { ThemeContext } from '../../context/ThemeContext';
 import { Link } from 'react-scroll';
 import { FaMoon, FaSun } from "react-icons/fa";
-import Trademark from "../../assets/trademark.png"
 
 export const Navbar = () => {
     const { Themes, currentTheme, handleChangeTheme } = useContext(ThemeContext);
