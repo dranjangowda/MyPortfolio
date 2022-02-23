@@ -13,8 +13,6 @@ import hero from "../../assets/hero.svg";
 
 export const Home = () => {
     const { Themes, currentTheme } = useContext(ThemeContext);
-    
- 
     return (
         <section id="homeID" className="section-home" style={ currentTheme === "light" ? Themes.light.home : Themes.dark.home }>
             <div className="home" >

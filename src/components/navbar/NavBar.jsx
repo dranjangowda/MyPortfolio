@@ -7,7 +7,7 @@ import Trademark from "../../assets/trademark.png"
 
 export const Navbar = () => {
     const { Themes, currentTheme, handleChangeTheme } = useContext(ThemeContext);
-    const navCont = [{ to:"homeID", text: "HOME", id:1 }, { to:"aboutID", text:"ABOUT", id:2 }, { to:"skillsID", text:"SKILLS", id:3 }, { to:"projectsID", text:"PROJECTS", id:4 } ];
+    const navCont = [{ to:"homeID", text: "HOME", id:1 }, { to:"aboutID", text:"ABOUT", id:2 }, { to:"skillsID", text:"SKILLS", id:3 }, { to:"projectsID", text:"PROJECTS", id:4 },{to:"contactID",text:"CONTACT",id:5}];
 
 
     return (
@@ -15,7 +15,7 @@ export const Navbar = () => {
         <div className="Navbar"  style={ currentTheme === "light" ? Themes.light.navbar : Themes.dark.navbar }>
             <div className="onlySmallScreen">RANJAN</div>
             <div className="NavRow">
-                <img src={Trademark} className='Trademark' alt="trademark"/>
+                
                 {
                     navCont.map((ele) => {
                         return (
@@ -25,6 +25,7 @@ export const Navbar = () => {
                 }
             </div>
             <div className="theme-cont">
+            
             <div style={ currentTheme === "light" ? Themes.light.themebtn : Themes.dark.themebtn } className="theme-btn" onClick={ handleChangeTheme }>
                   {
                       currentTheme === "light" ? <FaMoon/> : <FaSun/>
